@@ -107,6 +107,9 @@ class TalkAI:
             os.environ['SPEECH_KEY'] = access_key['SPEECH_KEY']
             os.environ['SPEECH_REGION'] = access_key['SPEECH_REGION']
             os.environ['OPENAI_KEY'] = access_key['OPENAI_KEY']
+            os.environ['OPENAI_BASE'] = access_key['OPENAI_BASE']
+            os.environ['OPENAI_TYPE'] = access_key['OPENAI_TYPE']
+            os.environ['OPENAI_VERSION'] = access_key['OPENAI_VERSION']
     
     def _setup_openai(self):
         '''Setup OpenAI API Variables'''
